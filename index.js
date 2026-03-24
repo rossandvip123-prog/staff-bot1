@@ -1,3 +1,6 @@
+const TOKEN = process.env.TOKEN;
+const COOKIE = process.env.COOKIE;
+
 const { Client, GatewayIntentBits, SlashCommandBuilder, Routes, REST, EmbedBuilder } = require("discord.js");
 const noblox = require("noblox.js");
 
