@@ -1,4 +1,4 @@
-
+console.log("TOKEN EXISTS:", !!process.env.TOKEN);
 const { 
   Client, 
   GatewayIntentBits, 
